@@ -1,0 +1,96 @@
+
+    /* Estilos gerais para todos os elementos */
+       * {
+      box-sizing: border-box; /* Inclui padding e border no tamanho total do elemento */
+      margin: 0; /* Remove margens padrão */
+      padding: 0; /* Remove preenchimento padrão */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Define a fonte */
+    }
+
+
+    /* Estilos para o corpo da página */
+    body {
+     background: url(./img/imagemparaquiz.jpg)center center/cover;
+      color: #fff; /* Cor do texto */
+      min-height: 100vh; /* Altura mínima da página */
+      display: flex; /* Usar flexbox para centralizar */
+      align-items: center; /* Alinha verticalmente ao centro */
+      justify-content: center; /* Alinha horizontalmente ao centro */
+      padding: 20px; /* Espaçamento interno */
+    }
+
+
+    /* Estilos para o container do quiz */
+    .container {
+      background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
+      padding: 2rem; /* Espaçamento interno */
+      border-radius: 20px; /* Bordas arredondadas */
+      max-width: 500px; /* Largura máxima */
+      width: 100%; /* Largura total */
+      text-align: center; /* Centraliza o texto */
+      box-shadow: 0 0 20px rgb(255, 0, 0); /* Sombra ao redor do container */
+      transition: all 0.3s ease; /* Transição suave para mudanças */
+    }
+
+
+    /* Estilos para títulos */
+    h1, h2 {
+      margin-bottom: 1rem; /* Espaçamento abaixo dos títulos */
+    }
+
+
+    /* Estilos para ícones */
+    .icon {
+      font-size: 2.5rem; /* Tamanho do ícone */
+      color: #fcd34d; /* Cor do ícone */
+      margin-bottom: 1rem; /* Espaçamento abaixo do ícone */
+    }
+
+
+    /* Estilos para botões */
+    .btn {
+      background-color: #fff; /* Cor de fundo do botão */
+      color: #000000; /* Cor do texto do botão */
+      border: none; /* Sem borda */
+      padding: 0.8rem 1.5rem; /* Espaçamento interno do botão */
+      margin: 0.5rem 0; /* Margem acima e abaixo do botão */
+      border-radius: 10px; /* Bordas arredondadas */
+      cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+      font-weight: bold; /* Texto em negrito */
+      width: 100%; /* Largura total do botão */
+      transition: background 0.3s ease, transform 0.2s ease; /* Transições suaves */
+    }
+
+
+    /* Efeito ao passar o mouse sobre o botão */
+    .btn:hover {
+      background-color: #ddd; /* Cor de fundo ao passar o mouse */
+      transform: scale(1.03); /* Aumenta levemente o tamanho */
+    }
+
+
+    /* Estilos responsivos para telas pequenas */
+    @media (max-width: 600px) {
+      .btn {
+        font-size: 1rem; /* Tamanho da fonte do botão */
+      }
+    }
+
+
+    /* Estilos para listas */
+    ul {
+      list-style-type: disc; /* Tipo de marcador da lista */
+      text-align: left; /* Alinha o texto à esquerda */
+      display: inline-block; /* Permite centralizar a lista */
+      margin: 1rem auto; /* Margem automática para centralizar */
+      padding-left: 1.2rem; /* Preenchimento à esquerda */
+    }
+
+
+    /* Estilos para itens da lista */
+    li {
+      margin-bottom: 0.4rem; /* Espaçamento abaixo de cada item */
+    }
+    p{
+        font-size: 20px;
+    }

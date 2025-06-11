@@ -98,4 +98,6 @@ let pontosGestao = 0;
 * Permita que o aluno reinicie o quiz
 * Inclua ícones ou imagens relacionadas a cada perfil profissional
 * Acrescentar pdf
-* Adicionar vídeo cada término de quiz 
+* Adicionar vídeo cada término de quiz
+  
+![Captura de tela 2025-06-11 150112](https://github.com/user-attachments/assets/1bed0564-464a-4f35-a898-57a236e56602)
